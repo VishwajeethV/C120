@@ -1,0 +1,50 @@
+.Title {
+  width:100%;
+  margin: 0px;
+  box-shadow: 5px 5px 10px firebrick;
+}
+ 
+.heading_div {
+  background: goldenrod;
+  border-radius: 20px;
+  color: whitesmoke;
+  float: none;
+  box-shadow:5px 5px 10px greenyellow;
+  padding: 10px;
+}
+
+.heading_div2 {
+  font-size: 18px;
+}
+
+.result {
+  font-size: 20px;
+  box-shadow:5px 5px 10px seagreen;
+}
+
+.result span {
+  white-space: pre-line;
+  color: crimson;
+}
+
+.copy_right_footer {
+  font-weight: bold;
+  font-size: medium;
+  text-align: center;
+  color:black;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: chartreuse;
+}
+
+canvas {
+  border:5px solid indianred;
+  margin-top: 150px;
+  animation: changing_colours 2.5s infinite;
+}
+
+@keyframes changing_colours{
+from{ box-shadow : 5px 5px 10px indigo }
+to{ box-shadow:5px 5px 10px rgb(147, 240, 128);}
+}
